@@ -1,0 +1,31 @@
+{
+  "name": "store-forward-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/store-forward-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/store-forward-system/issues"
+  },
+  "homepage": "https://github.com/stierma1/store-forward-system#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "del": "^3.0.0",
+    "express": "^4.16.2",
+    "least-slack-scheduler": "^1.0.8"
+  },
+  "devDependencies": {
+    "jest": "^22.0.6"
+  }
+}
